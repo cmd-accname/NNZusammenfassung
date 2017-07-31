@@ -1,0 +1,40 @@
+\section{Reinfocement Learning}
+\label{sect:reinforcement-learning}
+
+agent -> can act
+action -> influences state
+success -> scalar reward signal
+
+in nutshell -> actions to maximize future reward
+
+sequential decision making
+	-> 
+markov decision process
+policy a = pi(s)
+	die policy ist eine wkeitverteilung abhängig vom momentan zustand
+value function
+	gegeben policy und state: wie gut ist action a in zustand s?
+	zwei zustände haben den gleichen reward, können sich abe später unterscheiden
+	r = reward, y= continuierungsfaktor (0.9)
+policy-basedein
+	optimal policy: achieving maximum future reward
+value-based
+	optimal value function: maximum value achievable under any policy
+
+policy-based: actions sequence welche immer den besten reward gibt je action
+value-based: aktionssequenz welche am ENDE den maximalen reward liefert. (aktion innerhalb der sequenz muss nicht optimal sein)
+Bsp: roboter mit energieverbrauch und Höhe (laufen)
+Regression: lernen einer Funktion
+bellmann equation: 
+q-learning: back: reward je action / for: chose action with highest reward
+F29: wie kommt die ableitung zustande?
+Q-Values: $Q^\pi(s,a)$
+
+TD-Learning:
+
+Beispiel für Q-Learning suchen
+	
+	
+Fragen:
+- wie parametrisieren wir eine Policy?
+- Wie sieht eine Policy aus?

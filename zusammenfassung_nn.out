@@ -1,0 +1,41 @@
+\BOOKMARK [1][-]{section.1}{Neuronale Netze - kurzer \334berblick}{}% 1
+\BOOKMARK [1][-]{section.2}{Pattern Recognition}{}% 2
+\BOOKMARK [1][-]{section.3}{Recurrent Neural Networks}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Sequence Learning}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Elman vs. Jordan Networks - Simple RNN}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Aufbau}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Training}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{Vanishing / Exploding Gradient}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Speech}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Speech Recognition}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Acoustic Model}{section.4}% 11
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Hidden Markov Model}{subsection.4.2}% 12
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Time Delay Neural Network \(TDNN\)}{subsection.4.2}% 13
+\BOOKMARK [2][-]{subsection.4.3}{Word Model}{section.4}% 14
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Time Alignment}{subsection.4.3}% 15
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Multi-State-TDNN}{subsection.4.3}% 16
+\BOOKMARK [3][-]{subsubsection.4.3.3}{NN-HMM Hybride}{subsection.4.3}% 17
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Viterbi-Algorithmus}{subsection.4.3}% 18
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Forward-Algorithmus}{subsection.4.3}% 19
+\BOOKMARK [3][-]{subsubsection.4.3.6}{Backward-Algorithmus}{subsection.4.3}% 20
+\BOOKMARK [1][-]{section.5}{Learning Vector Quantization}{}% 21
+\BOOKMARK [2][-]{subsection.5.1}{Vector Quantization}{section.5}% 22
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Applications}{subsection.5.1}% 23
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Training}{subsection.5.1}% 24
+\BOOKMARK [2][-]{subsection.5.2}{Learning Vector Quantization}{section.5}% 25
+\BOOKMARK [3][-]{subsubsection.5.2.1}{LVQ1}{subsection.5.2}% 26
+\BOOKMARK [3][-]{subsubsection.5.2.2}{LVQ2}{subsection.5.2}% 27
+\BOOKMARK [3][-]{subsubsection.5.2.3}{LVQ2.1}{subsection.5.2}% 28
+\BOOKMARK [3][-]{subsubsection.5.2.4}{LVQ3}{subsection.5.2}% 29
+\BOOKMARK [3][-]{subsubsection.5.2.5}{OLVQ}{subsection.5.2}% 30
+\BOOKMARK [1][-]{section.6}{Self-Organizing-Maps}{}% 31
+\BOOKMARK [2][-]{subsection.6.1}{Principles Of Self-Oragnized-Learning}{section.6}% 32
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Principle 1: Self-Amplification}{subsection.6.1}% 33
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Principle 2: Competition}{subsection.6.1}% 34
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Principle 3: Cooperation}{subsection.6.1}% 35
+\BOOKMARK [3][-]{subsubsection.6.1.4}{Principle 4: Structural Information}{subsection.6.1}% 36
+\BOOKMARK [3][-]{subsubsection.6.1.5}{Hebbian Learning}{subsection.6.1}% 37
+\BOOKMARK [2][-]{subsection.6.2}{Self-Organizing-Maps}{section.6}% 38
+\BOOKMARK [1][-]{section.7}{Reinfocement Learning}{}% 39
+\BOOKMARK [1][-]{section.8}{Deep Learning in Computer Vision}{}% 40
+\BOOKMARK [1][-]{section.9}{Neural Network Applications in Machine Translation}{}% 41

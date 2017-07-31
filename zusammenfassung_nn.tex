@@ -1,0 +1,70 @@
+\documentclass[11pt]{article}
+\title{\textbf{Neuronale Netze} \\ Zusammenfassung}
+\author{Marius Bauer}
+\date{\today}
+
+\usepackage{ngerman}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[left=2.5cm,right=2.5cm]{geometry}
+
+
+% Mathematik
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+% should be loaded last
+\usepackage{hyperref}
+
+\hypersetup {
+	pdftoolbar=true, % Anzeigen der Acrobat toolbar oder nicht
+	pdfmenubar=true, % Anzeigen des Acrobat menu oder nicht
+	pdftitle={Neuronale Netze Zusammenfassung},
+	pdfsubject={Neuronale Netze},
+	pdfauthor={Marius Bauer},
+	pdfkeywords={Neuronale, Netze, TDNN, Autoencoder},
+	pdfcreator={texmaker},
+	%linkcolor=rot, 	% Farbe der internen Verweise
+	%citecolor=grün, 	% Farbe der Zitate
+	%urlcolor=magenta, 	% Farbe der Links
+	colorlinks=false, 	%Links sind farbig 
+	%linkbordercolor=rot,	% Roter Rahmen
+	%citebordercolor=grün, 	% Grüner Rahmen
+	%urlbordercolor=cyan,	% Cyan farbiger Rahmen 
+	pdfborderstyle={/S/U/W 1},
+	%pdfborder={0 0 0} % gar keine Boxen um Links
+}
+
+% preferences
+\setenumerate{noitemsep}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+% ################## search for TODO ################
+
+\input{neuronale-netze}
+\input{pattern-recognition}
+\input{rnn}
+\input{speech}
+\input{learning-vector-quantization}
+\input{self-organizing-maps}
+\input{reinforcement-learning}
+\input{deep-learning-in-computer-vision}
+\input{neural-network-applications-in-machine-translation}
+% \input{algorithmen}
+% \input{error-functions}
+% \input{activation-functions}
+
+% create list of figures etc. 
+% caption all graphics and refer to them correctly
+
+% Output eines MLP kann statistisch interpretiert werden: P(W|A), jedoch gilt beim akustichem Modell P(A|W)! -> Überführung: Bayes regel umformulieren. Unterer Teil vom Bruch konstant. P(W): Vorkommnise eines Phonems zählen.
+
+\end{document}
