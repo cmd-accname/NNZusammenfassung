@@ -62,6 +62,43 @@ Value iteration solve the Ballman Equation:
 \[
 Q_{i + 1}(s, a) = \mathbb{E}_{s^{'}}[r_{t + 1} + \gamma Q_i(s^{'}, a^{'})| s, a]
 \]
+\subsection{Q-Learning}
+\label{ssect:q-learning}
+Objective function by \textit{mean-squared error} in Q-values:
+\[
+L(w) = \mathbb{E}[(r + \gamma max_{a^{'}}Q(s^{'}, a^{'}, w^{'} - Q(s, a, w))^2]
+\]
+Q-learning gradient:
+\[
+\frac{\delta L(w)}{\delta w} = \mathbb{E}[(r + \gamma max_{a^{'}}Q(s^{'}, a^{'}, w^{'} - Q(s, a, w)) \frac{\delta Q(s, a, w)}{\delta w}]
+\]
 
+\subsection{Temporal Difference Learning}
+\label{ssect:temporal-difference-learning}
+General update rule:
+\[
+Q(s_t, a_t) += learning_rate \cdot (td_target - Q(s_t, a_t))
+\]
+\subsubsection{SARSA}
+\label{sssect:sarsa}
+\[
+Q(s_t, a_t) += \alpha [r_t + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t)]
+\]
+Q-value for a state-action is updated by an error, adjusted by the learning rate alpha.\\
+TD Target for SARSA:
+\[
+R_{t + 1} + discount_factor \cdot Q(s_{t + 1}, a_{t + 1})
+\]
+TD Target for Q-Learning:
+\[
+R_{t + 1} + discount_factor \cdot maxQ(s_{t + 1}, a_{t + 1})
+\]
 
+\subsection{Challenges}
+\label{ssect:challenges}
+\begin{itemize}
+	\item Data is sequential
+	\item policy changes rapidly with small changes to Q-values
+	\item scale of gradients and reward us unknown at the onset
+\end{itemize}
 \newpage

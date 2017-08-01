@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.16)  1 AUG 2017 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.16)  1 AUG 2017 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -432,7 +432,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
  [5] [6] [7]
-<pattern-recognition-partitioning.png, id=404, 1178.4025pt x 630.355pt>
+<pattern-recognition-partitioning.png, id=434, 1178.4025pt x 630.355pt>
 File: pattern-recognition-partitioning.png Graphic file (type png)
 
 <use pattern-recognition-partitioning.png>
@@ -440,7 +440,7 @@ Package pdftex.def Info: pattern-recognition-partitioning.png used on input lin
 e 89.
 (pdftex.def)             Requested size: 353.52348pt x 189.10796pt.
  [8 <./pattern-recognition-partitioning.png (PNG copy)>] [9] [10]) (./rnn.tex
-<rnn-example1.png, id=428, 330.23375pt x 295.1025pt>
+<rnn-example1.png, id=458, 330.23375pt x 295.1025pt>
 File: rnn-example1.png Graphic file (type png)
  <use rnn-example1.png>
 Package pdftex.def Info: rnn-example1.png used on input line 17.
@@ -449,7 +449,7 @@ Package pdftex.def Info: rnn-example1.png used on input line 17.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<unfold-example.png, id=429, 517.935pt x 198.7425pt>
+<unfold-example.png, id=459, 517.935pt x 198.7425pt>
 File: unfold-example.png Graphic file (type png)
  <use unfold-example.png>
 Package pdftex.def Info: unfold-example.png used on input line 38.
@@ -457,14 +457,14 @@ Package pdftex.def Info: unfold-example.png used on input line 38.
 
 [11] [12 <./rnn-example1.png (PNG copy)>] [13 <./unfold-example.png (PNG copy)>
 ]) (./speech.tex
-<komponenten-speech-recognition.png, id=443, 827.09pt x 415.5525pt>
+<komponenten-speech-recognition.png, id=473, 827.09pt x 415.5525pt>
 File: komponenten-speech-recognition.png Graphic file (type png)
 
 <use komponenten-speech-recognition.png>
 Package pdftex.def Info: komponenten-speech-recognition.png used on input line 
 11.
 (pdftex.def)             Requested size: 372.18706pt x 186.99689pt.
- [14 <./komponenten-speech-recognition.png (PNG copy)>] <hhm-example.png, id=44
+ [14 <./komponenten-speech-recognition.png (PNG copy)>] <hhm-example.png, id=47
 9, 789.95125pt x 246.9225pt>
 File: hhm-example.png Graphic file (type png)
 
@@ -472,7 +472,7 @@ File: hhm-example.png Graphic file (type png)
 Package pdftex.def Info: hhm-example.png used on input line 33.
 (pdftex.def)             Requested size: 355.47478pt x 111.11409pt.
 
-<alignment-phoneme-sprache.png, id=450, 805.0075pt x 328.22626pt>
+<alignment-phoneme-sprache.png, id=480, 805.0075pt x 328.22626pt>
 File: alignment-phoneme-sprache.png Graphic file (type png)
 
 <use alignment-phoneme-sprache.png>
@@ -484,7 +484,7 @@ Overfull \hbox (2.66583pt too wide) in paragraph at lines 42--44
  []
 
 [15 <./hhm-example.png (PNG copy)>]
-<tdnn.png, id=456, 552.0625pt x 599.23875pt>
+<tdnn.png, id=487, 552.0625pt x 599.23875pt>
 File: tdnn.png Graphic file (type png)
  <use tdnn.png>
 Package pdftex.def Info: tdnn.png used on input line 51.
@@ -500,14 +500,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--71
 
  []
 
-<MS-TDNN1.png, id=465, 718.685pt x 499.8675pt>
+<MS-TDNN1.png, id=496, 718.685pt x 499.8675pt>
 File: MS-TDNN1.png Graphic file (type png)
  <use MS-TDNN1.png>
 Package pdftex.def Info: MS-TDNN1.png used on input line 75.
 (pdftex.def)             Requested size: 359.34161pt x 249.93314pt.
  [18] [19 <./MS-TDNN1.png (PNG copy)>] [20]) (./learning-vector-quantization.te
 x
-<vector-quantization-training.png, id=480, 1136.245pt x 502.87875pt>
+<vector-quantization-training.png, id=510, 1136.245pt x 502.87875pt>
 File: vector-quantization-training.png Graphic file (type png)
 
 <use vector-quantization-training.png>
@@ -520,14 +520,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [21] [22 <./vector-quantization-training.png (PNG copy)>] [23])
 (./self-organizing-maps.tex [24]) (./reinforcement-learning.tex
-<agent-and-environment.png, id=497, 1169.36874pt x 550.055pt>
+<agent-and-environment.png, id=527, 1169.36874pt x 550.055pt>
 File: agent-and-environment.png Graphic file (type png)
 
 <use agent-and-environment.png>
 Package pdftex.def Info: agent-and-environment.png used on input line 20.
 (pdftex.def)             Requested size: 467.73921pt x 220.0181pt.
  [25 <./agent-and-environment.png (PNG copy)>]
-<policy-gradients-with-neural-networks.png, id=504, 1141.26375pt x 570.13pt>
+<policy-gradients-with-neural-networks.png, id=534, 1141.26375pt x 570.13pt>
 File: policy-gradients-with-neural-networks.png Graphic file (type png)
 
 <use policy-gradients-with-neural-networks.png>
@@ -535,7 +535,7 @@ Package pdftex.def Info: policy-gradients-with-neural-networks.png used on inpu
 t line 37.
 (pdftex.def)             Requested size: 456.49742pt x 228.04796pt.
 
-<RL-rrn-rl.png, id=505, 1231.60126pt x 392.46625pt>
+<RL-rrn-rl.png, id=535, 1231.60126pt x 392.46625pt>
 File: RL-rrn-rl.png Graphic file (type png)
  <use RL-rrn-rl.png>
 Package pdftex.def Info: RL-rrn-rl.png used on input line 41.
@@ -545,7 +545,7 @@ Overfull \hbox (20.60054pt too wide) in paragraph at lines 41--42
 [][] 
  []
 
-<policy-gradient-with-neural-networks.png, id=506, 1045.9075pt x 307.1475pt>
+<policy-gradient-with-neural-networks.png, id=536, 1045.9075pt x 307.1475pt>
 File: policy-gradient-with-neural-networks.png Graphic file (type png)
 
 <use policy-gradient-with-neural-networks.png>
@@ -564,11 +564,68 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [26 <./policy-gradients-with-neural-networks.png (PNG copy)>] [27 <./RL-rrn-rl.
-png (PNG copy)> <./policy-gradient-with-neural-networks.png (PNG copy)>])
-(./deep-learning-in-computer-vision.tex [28])
-(./neural-network-applications-in-machine-translation.tex [29])
-(./speaker-independence.tex [30]
-<phoneme-specific-reference-model-selection-networks.png, id=527, 1022.82124pt 
+png (PNG copy)> <./policy-gradient-with-neural-networks.png (PNG copy)>]
+[28]) (./deep-learning-in-computer-vision.tex [29])
+(./neural-network-applications-in-machine-translation.tex
+<conventional-statistical-MT.png, id=553, 660.4675pt x 211.79124pt>
+File: conventional-statistical-MT.png Graphic file (type png)
+
+<use conventional-statistical-MT.png>
+Package pdftex.def Info: conventional-statistical-MT.png used on input line 32.
+
+(pdftex.def)             Requested size: 396.28355pt x 127.07571pt.
+
+<statistical-mt.png, id=554, 697.60625pt x 427.5975pt>
+File: statistical-mt.png Graphic file (type png)
+
+<use statistical-mt.png>
+Package pdftex.def Info: statistical-mt.png used on input line 35.
+(pdftex.def)             Requested size: 279.03755pt x 171.03596pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30 <./conventional-statistical-MT.png (PNG copy)>]
+<encoder.png, id=559, 613.29124pt x 391.4625pt>
+File: encoder.png Graphic file (type png)
+ <use encoder.png>
+Package pdftex.def Info: encoder.png used on input line 49.
+(pdftex.def)             Requested size: 245.31215pt x 156.58221pt.
+
+<decoder.png, id=560, 1164.35pt x 719.68875pt>
+File: decoder.png Graphic file (type png)
+ <use decoder.png>
+Package pdftex.def Info: decoder.png used on input line 53.
+(pdftex.def)             Requested size: 465.73175pt x 287.87039pt.
+
+<attention-mechanism.png, id=561, 1287.81125pt x 714.67pt>
+File: attention-mechanism.png Graphic file (type png)
+
+<use attention-mechanism.png>
+Package pdftex.def Info: attention-mechanism.png used on input line 57.
+(pdftex.def)             Requested size: 515.11539pt x 285.86293pt.
+
+Overfull \hbox (43.08415pt too wide) in paragraph at lines 57--58
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31 <./statistical-mt.png (PNG copy)> <./encoder.png (PNG copy)>]
+<edtraining.png, id=567, 1041.8925pt x 576.1525pt>
+File: edtraining.png Graphic file (type png)
+ <use edtraining.png>
+Package pdftex.def Info: edtraining.png used on input line 75.
+(pdftex.def)             Requested size: 416.74962pt x 230.45691pt.
+
+[32 <./decoder.png (PNG copy)>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33 <./attention-mechanism.png (PNG copy)>]) (./speaker-independence.tex
+[34 <./edtraining.png (PNG copy)>]
+<phoneme-specific-reference-model-selection-networks.png, id=580, 1022.82124pt 
 x 545.03625pt>
 File: phoneme-specific-reference-model-selection-networks.png Graphic file (typ
 e png)
@@ -577,7 +634,7 @@ Package pdftex.def Info: phoneme-specific-reference-model-selection-networks.pn
 g used on input line 48.
 (pdftex.def)             Requested size: 409.12125pt x 218.01064pt.
 
-<meta-pi-model.png, id=528, 814.04124pt x 742.775pt>
+<meta-pi-model.png, id=581, 814.04124pt x 742.775pt>
 File: meta-pi-model.png Graphic file (type png)
  <use meta-pi-model.png>
 Package pdftex.def Info: meta-pi-model.png used on input line 52.
@@ -590,13 +647,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--56
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31 <./phoneme-specific-reference-model-selection-networks.png (PNG copy)>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-[32 <./meta-pi-model.png (PNG copy)>]
-<multilingual-bottleneck-features.png, id=538, 1060.96375pt x 660.4675pt>
+[35] [36 <./phoneme-specific-reference-model-selection-networks.png (PNG copy)>
+] <multilingual-bottleneck-features.png, id=591, 1060.96375pt x 660.4675pt>
 File: multilingual-bottleneck-features.png Graphic file (type png)
 
 <use multilingual-bottleneck-features.png>
@@ -604,7 +664,10 @@ Package pdftex.def Info: multilingual-bottleneck-features.png used on input lin
 e 88.
 (pdftex.def)             Requested size: 424.37798pt x 264.18231pt.
 
-<DNNs-LUFE.png, id=539, 593.21625pt x 418.56375pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DNNs-LUFE.png, id=592, 593.21625pt x 418.56375pt>
 File: DNNs-LUFE.png Graphic file (type png)
  <use DNNs-LUFE.png>
 Package pdftex.def Info: DNNs-LUFE.png used on input line 92.
@@ -613,24 +676,25 @@ Package pdftex.def Info: DNNs-LUFE.png used on input line 92.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33 <./multilingual-bottleneck-features.png (PNG copy)>]) (./hand-writing.tex
-[34 <./DNNs-LUFE.png (PNG copy)>]) (./natural-language-processing.tex [35])
-(./gradient-optimization.tex [36] [37] [38] [39]) (./error-functions.tex
-[40]) (./activation-functions.tex [41])
+[37 <./meta-pi-model.png (PNG copy)>]) (./hand-writing.tex [38 <./multilingual-
+bottleneck-features.png (PNG copy)>]) (./natural-language-processing.tex
+[39 <./DNNs-LUFE.png (PNG copy)>]) (./gradient-optimization.tex [40] [41]
+[42] [43]) (./error-functions.tex [44]) (./activation-functions.tex [45])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
- (./zusammenfassung_nn.aux)
+
+(./zusammenfassung_nn.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
 Package rerunfilecheck Info: File `zusammenfassung_nn.out' has not changed.
-(rerunfilecheck)             Checksum: 9929628C280793CAEA557FCE7A7D86B4;5286.
+(rerunfilecheck)             Checksum: F11496E9DFE449BE2D2B8AA8493D3E81;5685.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
- 8173 strings out of 493029
- 118748 string characters out of 6136233
- 216454 words of memory out of 5000000
- 11427 multiletter control sequences out of 15000+600000
+ 8225 strings out of 493029
+ 119758 string characters out of 6136233
+ 217736 words of memory out of 5000000
+ 11463 multiletter control sequences out of 15000+600000
  17631 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,15n,37p,719b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -653,10 +717,10 @@ sr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on zusammenfassung_nn.pdf (41 pages, 1772942 bytes).
+Output written on zusammenfassung_nn.pdf (45 pages, 2293711 bytes).
 PDF statistics:
- 677 PDF objects out of 1000 (max. 8388607)
- 590 compressed objects within 6 object streams
- 116 named destinations out of 1000 (max. 500000)
- 662 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 732 PDF objects out of 1000 (max. 8388607)
+ 634 compressed objects within 7 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 740 words of extra memory for PDF output out of 10000 (max. 10000000)
 
