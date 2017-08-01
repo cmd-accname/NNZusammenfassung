@@ -1,4 +1,25 @@
+\section{Error Functions}
+\label{sect:error-functions}
+
+\subsection{Binary Cross Entropy or Negative Log Likelihood}
+\label{ssect:binary-cross-entropy}
+\[
+L(\mathbf{x}, \mathbf{w}) = - \sum_k [t_k^x \log(o_k^x) + (1-t_k^x) \log(1-o_k^x)]
+\]
+$t_k^x$: target label of instance x \\
+$o_k^x$: real output
+\begin{align*}
+o_k^x &= P(t_k^x = 1|x_k; w) = g(\mathbf{w} \cdot \mathbf{x}_k
+1 - o_k^x &= P(t_k^x = 0|x_k; w) = 1 - g(\mathbf{w} \cdot \mathbf{x}_k
+\end{align*}
+$g(z)$: sigmoid functions (or Logistic functions)
+
+
+
+
 % Error Functions
 Mean Square Error
 Cross Entropy
 Classification Figure of Merit
+
+\newpage

@@ -1,0 +1,131 @@
+\section{Gradient Optimizations and 2nd order Methods}
+\label{sect:gradient-optimization-and-2nd-order-methods}
+Idea: Start from a point close to the wanted solution and iteratively move to the point that makes the gradient of the function approache zero (hence \textit{decent}). All weights are initialised with small random numbers.\\
+\textbf{Important:} update the parameters in the \textbf{opposite} direction of the gradient:
+\[
+\mathbf{w} = \mathbf{w} - \eta \mathbf{\nabla}_{\mathbf{w}} L(\mathbf{x}, \mathbf{w})
+\]
+
+\subsection{Logistic Regression}
+\label{ssect:logistic-regression}
+\[
+L(\mathbf{x}, \mathbf{w}) = - \sum_k [t_k^x \log(o_k^x) + (1-t_k^x) \log(1-o_k^x)]
+\]
+
+\[
+o_k^x = \sigma(\mathbf{w} \mathbf{x}_k) = \frac{1}{1 + e^{-\mathbf{w}\mathbf{x}_k}}
+\]
+
+\begin{align*}
+\nabla_{\mathbf{w}} L &= \frac{\partial L}{\partial \mathbf{o}} \frac{\partial \mathbf{o}}{\partial \mathbf{\sigma}} \frac{\partial \mathbf{\sigma}}{\partial \mathbf{w}} \\
+&= (\mathbf{o} - \mathbf{t}) \mathbf{x}
+\end{align*}
+Update rule:
+\[
+\mathbf{w} = \mathbf{w} - \eta(\mathbf{o} - \mathbf{t}) \mathbf{x}
+\]
+
+\subsubsection{Gradient Descent - General Approach}
+\label{sssect:gradient-descent}
+\begin{itemize}
+	\item init $\mathbf{w}$, chose learning rate $\eta$
+	\item iterate:
+		\begin{itemize}
+			\item grad = $\mathbf{0}$
+			\item iterate for every instance of the training data $x \in X$:
+				\begin{itemize}
+					\item compute output $o_x = \sigma (\mathbf{w} \mathbf{x})$
+					\item compute error $E = t_x - o_x$
+					\item $grad = grad + E \mathbf{x}$
+				\end{itemize}
+			\item update $\mathbf{w} = \mathbf{w} + \eta grad$
+		\end{itemize}
+	\item until a convergence condition is reached (small error or all epochs done)
+\end{itemize}
+
+\subsubsection{Batch Gradient Descent}
+\label{sssect:batch-gradient-descent}
+Works like the normal gradient descent but the weights are updated every \textbf{epoch}!
+\begin{itemize}
+	\item - iterate whole dataset to perform one update
+	\item - slow and memory-intensive
+	\item - can not be used for \textit{online} training
+\end{itemize}
+
+\subsubsection{Stochastic Gradient Descent}
+\label{sssect:stochastic-gradient-descent}
+Update the weights right after we have seen \textit{one training instance}. Before each epoch \textit{shuffle} the training set!
+\begin{itemize}
+	\item + converges much faster
+	\item + no huge reuqiremen of memory
+	\item + can be used for online training
+	\item - approximation of the gradient
+	\item - high variance in updating
+\end{itemize}
+
+\subsubsection{Mini-Batch Gradient Descent}
+\label{sssect:mini-batch-gradient-descent}
+Compromise between Batch and Stochastic Gradient descent. Perform one weight update after $k$ training instances (called 1 \textbf{iteration}).
+\begin{itemize}
+	\item + faster than batch gradient descent
+	\item + overcome memory intensity (depends on k)
+	\item + can be used for online training
+	\item + Faster and more stable than Stochastic Gradient Descent
+	\item + fewer smaller weight updates
+	\item very easy to parallelze
+\end{itemize}
+
+\subsection{Learning Rate Scheduling}
+\label{ssect:learning-rate-scheduling}
+Decay learning rates, making it smaller as the training is going. From time step $t_d$ (the $t_d^{th} iteration)$, calculate: $\eta_{t+1} = \beta \eta_t$. Choosing learning rates and learning rate scheduling can be tricky.
+
+\subsubsection{Adagrad - ADAptive GRADient method}
+\label{sssect:adagrad-apaptive-gradient-method}
+\[
+\mathbf{w}_t = \mathbf{w}_{t - 1} - \frac{\eta}{\sqrt{G_T + \epsilon}} \nabla_{\mathbf{w}} L(\mathbf{x}, \mathbf{w}_{t-1})
+\]
+$G_t \in \mathbb{R}^{d \times d}$: diagonal matrix, each diagonal entry is the sum of the squares of the gradients with respect to $w_i$ up to time step t\\
+$\epsilon$: small smoothing term that avoids division by zero
+\begin{itemize}
+	\item + good for sparse data
+	\item + no manual tuning of the learning rate (normally $\eta = 0.01$, $\epsilon = 1e^{-8}$)
+	\item - have to store $G_t$
+	\item - $G_t$ is accumulated $\Rightarrow$ adaptive learning rate is smaller over time
+\end{itemize}
+\subsubsection{Adadelta}
+\label{sssect:adadelta}
+Same as Adagrad but only stores a limited history of the gradients (normally 2). 
+\begin{align*}
+\mathbf{w}_t &= \mathbf{w}_{t - 1} - \frac{RMS[\Delta w]_{t - 1}}{RMS[g]_t} g_t \\
+g_t &= \nabla_{\mathbf{w}} L(\mathbf{x}, \mathbf{w}_{t-1}) \\
+RMS[\Delta w]_t &= \sqrt{E[\Delta w^2]_t + \epsilon} \\
+E[\Delta w^2]_t &= \gamma E[\Delta w^2]_{t-1} + (1 - \gamma) \Delta w_t^2
+\end{align*}
+- das $E[\Delta w^2]_t$???
+\begin{itemize}
+	\item + not memory intensiv
+	\item + no picking of the learning rate needed
+\end{itemize}
+\subsubsection{RMSprop}
+\label{sssect:rmsprop}
+\begin{align*}
+\mathbf{w}_t &= \mathbf{w}_{t - 1} - \frac{\eta}{\sqrt{E[g^2]_t + \epsilon}} g_t \\
+E[g^2]_t &= \gamma E[g^2]_{t - 1} + g_t^2
+\end{align*}
+\subsubsection{Adam - ADAptive Moment estimation}
+\label{sssect:adam}
+\begin{align*}
+\mathbf{w}_t &= \mathbf{w}_{t - 1} - \frac{\eta}{\sqrt{\widehat{\mathbf{v}}_t + \epsilon}} \widehat{\mathbf{m}}_t \\
+\widehat{\mathbf{m}}_t &= \frac{m_t}{1-\beta_1^t}\\
+\widehat{\mathbf{v}}_t &= \frac{v_t}{1-\beta_2^t}\\
+m_t &= \beta_1 m_{t - 1} + (1 - \beta_1)g_t \\
+v_t &= \beta_2 v_{t - 1} + (1 - \beta_2) g_t^2
+\end{align*}
+-beta1, beta2??
+\begin{itemize}
+	\item + faster convergence
+	\item - pratically more overfitting
+	\item - needs resetting
+	\item - needs to store to matrices of past gradients
+\end{itemize}
+\newpage

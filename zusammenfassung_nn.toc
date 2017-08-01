@@ -1,41 +1,72 @@
-\contentsline {section}{\numberline {1}Neuronale Netze - kurzer \IeC {\"U}berblick}{4}{section.1}
-\contentsline {section}{\numberline {2}Pattern Recognition}{7}{section.2}
-\contentsline {section}{\numberline {3}Recurrent Neural Networks}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Sequence Learning}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Elman vs. Jordan Networks - Simple RNN}{7}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Aufbau}{8}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Training}{9}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Vanishing / Exploding Gradient}{9}{subsection.3.5}
-\contentsline {section}{\numberline {4}Speech}{10}{section.4}
-\contentsline {subsection}{\numberline {4.1}Speech Recognition}{10}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Acoustic Model}{11}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Hidden Markov Model}{11}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Time Delay Neural Network (TDNN)}{12}{subsubsection.4.2.2}
-\contentsline {subsection}{\numberline {4.3}Word Model}{13}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Time Alignment}{14}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Multi-State-TDNN}{14}{subsubsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3}NN-HMM Hybride}{15}{subsubsection.4.3.3}
-\contentsline {subsubsection}{\numberline {4.3.4}Viterbi-Algorithmus}{15}{subsubsection.4.3.4}
-\contentsline {subsubsection}{\numberline {4.3.5}Forward-Algorithmus}{16}{subsubsection.4.3.5}
-\contentsline {subsubsection}{\numberline {4.3.6}Backward-Algorithmus}{16}{subsubsection.4.3.6}
-\contentsline {section}{\numberline {5}Learning Vector Quantization}{17}{section.5}
-\contentsline {subsection}{\numberline {5.1}Vector Quantization}{17}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Applications}{17}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Training}{17}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}Learning Vector Quantization}{17}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}LVQ1}{18}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}LVQ2}{18}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}LVQ2.1}{19}{subsubsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.4}LVQ3}{19}{subsubsection.5.2.4}
-\contentsline {subsubsection}{\numberline {5.2.5}OLVQ}{19}{subsubsection.5.2.5}
-\contentsline {section}{\numberline {6}Self-Organizing-Maps}{19}{section.6}
-\contentsline {subsection}{\numberline {6.1}Principles Of Self-Oragnized-Learning}{19}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Principle 1: Self-Amplification}{19}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Principle 2: Competition}{19}{subsubsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.3}Principle 3: Cooperation}{19}{subsubsection.6.1.3}
-\contentsline {subsubsection}{\numberline {6.1.4}Principle 4: Structural Information}{19}{subsubsection.6.1.4}
-\contentsline {subsubsection}{\numberline {6.1.5}Hebbian Learning}{19}{subsubsection.6.1.5}
-\contentsline {subsection}{\numberline {6.2}Self-Organizing-Maps}{19}{subsection.6.2}
-\contentsline {section}{\numberline {7}Reinfocement Learning}{19}{section.7}
-\contentsline {section}{\numberline {8}Deep Learning in Computer Vision}{20}{section.8}
-\contentsline {section}{\numberline {9}Neural Network Applications in Machine Translation}{20}{section.9}
+\contentsline {section}{\numberline {1}Neuronale Netze - kurzer \IeC {\"U}berblick}{5}{section.1}
+\contentsline {section}{\numberline {2}Pattern Recognition}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}Bayes Decision Theory - Parametric}{9}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Classifier Discrimination Function}{9}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Curse of Dimensionality}{10}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Principle Component Analysis (PCA)}{10}{subsubsection.2.3.1}
+\contentsline {subsection}{\numberline {2.4}Non-Parametric Methods}{10}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Parzen Window}{10}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}k-nearest Neighours}{10}{subsubsection.2.4.2}
+\contentsline {section}{\numberline {3}Recurrent Neural Networks}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Sequence Learning}{11}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Elman vs. Jordan Networks - Simple RNN}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Aufbau}{11}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Training}{12}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Vanishing / Exploding Gradient}{13}{subsection.3.5}
+\contentsline {section}{\numberline {4}Speech}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Speech Recognition}{14}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Acoustic Model}{15}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Hidden Markov Model}{15}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Time Delay Neural Network (TDNN)}{16}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}Word Model}{17}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Time Alignment}{18}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Multi-State-TDNN}{18}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}NN-HMM Hybride}{19}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}Viterbi-Algorithmus}{19}{subsubsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.5}Forward-Algorithmus}{20}{subsubsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.6}Backward-Algorithmus}{20}{subsubsection.4.3.6}
+\contentsline {section}{\numberline {5}Learning Vector Quantization}{21}{section.5}
+\contentsline {subsection}{\numberline {5.1}Vector Quantization}{21}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Applications}{21}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Training}{21}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Learning Vector Quantization}{21}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}LVQ1}{22}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}LVQ2}{22}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}LVQ2.1}{23}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}LVQ3}{23}{subsubsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.5}OLVQ}{23}{subsubsection.5.2.5}
+\contentsline {section}{\numberline {6}Self-Organizing-Maps}{24}{section.6}
+\contentsline {subsection}{\numberline {6.1}Principles Of Self-Oragnized-Learning}{24}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Principle 1: Self-Amplification}{24}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Principle 2: Competition}{24}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}Principle 3: Cooperation}{24}{subsubsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.4}Principle 4: Structural Information}{24}{subsubsection.6.1.4}
+\contentsline {subsubsection}{\numberline {6.1.5}Hebbian Learning}{24}{subsubsection.6.1.5}
+\contentsline {subsection}{\numberline {6.2}Self-Organizing-Maps}{24}{subsection.6.2}
+\contentsline {section}{\numberline {7}Reinfocement Learning}{25}{section.7}
+\contentsline {subsection}{\numberline {7.1}Bellman Equation}{27}{subsection.7.1}
+\contentsline {section}{\numberline {8}Deep Learning in Computer Vision}{28}{section.8}
+\contentsline {section}{\numberline {9}Neural Network Applications in Machine Translation}{29}{section.9}
+\contentsline {section}{\numberline {10}Speaker Independence}{30}{section.10}
+\contentsline {subsection}{\numberline {10.1}Frequency Invariance}{31}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Multi-Speaker Reference Model}{31}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Cross-Language DNNs}{33}{subsection.10.3}
+\contentsline {section}{\numberline {11}Hand Writing}{34}{section.11}
+\contentsline {section}{\numberline {12}Natural Language Processing}{35}{section.12}
+\contentsline {section}{\numberline {13}Gradient Optimizations and 2nd order Methods}{36}{section.13}
+\contentsline {subsection}{\numberline {13.1}Logistic Regression}{36}{subsection.13.1}
+\contentsline {subsubsection}{\numberline {13.1.1}Gradient Descent - General Approach}{36}{subsubsection.13.1.1}
+\contentsline {subsubsection}{\numberline {13.1.2}Batch Gradient Descent}{37}{subsubsection.13.1.2}
+\contentsline {subsubsection}{\numberline {13.1.3}Stochastic Gradient Descent}{37}{subsubsection.13.1.3}
+\contentsline {subsubsection}{\numberline {13.1.4}Mini-Batch Gradient Descent}{37}{subsubsection.13.1.4}
+\contentsline {subsection}{\numberline {13.2}Learning Rate Scheduling}{37}{subsection.13.2}
+\contentsline {subsubsection}{\numberline {13.2.1}Adagrad - ADAptive GRADient method}{38}{subsubsection.13.2.1}
+\contentsline {subsubsection}{\numberline {13.2.2}Adadelta}{38}{subsubsection.13.2.2}
+\contentsline {subsubsection}{\numberline {13.2.3}RMSprop}{38}{subsubsection.13.2.3}
+\contentsline {subsubsection}{\numberline {13.2.4}Adam - ADAptive Moment estimation}{39}{subsubsection.13.2.4}
+\contentsline {section}{\numberline {14}Error Functions}{40}{section.14}
+\contentsline {subsection}{\numberline {14.1}Binary Cross Entropy or Negative Log Likelihood}{40}{subsection.14.1}
+\contentsline {section}{\numberline {15}Activation Functions}{41}{section.15}
+\contentsline {subsection}{\numberline {15.1}Linear Function}{41}{subsection.15.1}
+\contentsline {subsection}{\numberline {15.2}Logistic Function}{41}{subsection.15.2}
+\contentsline {subsection}{\numberline {15.3}Hyperbolic Tangent function}{41}{subsection.15.3}

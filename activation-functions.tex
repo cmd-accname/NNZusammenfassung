@@ -1,8 +1,33 @@
+% TODO: Ableitungen und Schaubilder einfügen
 \section{Activation Functions}
 \label{sect:activation-functions}
+The activation functions should have the following properties:
+\begin{itemize}
+	\item continous
+	\item bounded
+	\item monotonically increasing
+	\item differentiable
+\end{itemize}
 
-tanh
-max
+\subsection{Linear Function}
+\label{ssect:linear-function}
+\[
+g(x) = ax
+\]
+
+\subsection{Logistic Function}
+\label{ssect:logistic-function}
+\[
+g(x) = \sigma(x) = \frac{1}{1 + e^{-x}}
+\]
+
+\subsection{Hyperbolic Tangent function}
+\label{ssect:hyperbolic-tangent-function}
+\[
+g(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+\]
+
+max threshold
 ReLu
-sigmuid
-etc.
+
+\newpage

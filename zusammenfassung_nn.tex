@@ -49,7 +49,6 @@
 
 % ################## search for TODO ################
 
-\input{neuronale-netze}
 \input{pattern-recognition}
 \input{rnn}
 \input{speech}
@@ -58,13 +57,28 @@
 \input{reinforcement-learning}
 \input{deep-learning-in-computer-vision}
 \input{neural-network-applications-in-machine-translation}
+\input{speaker-independence}
+\input{hand-writing}
+\input{natural-language-processing}
+\input{gradient-optimization}
+\input{error-functions}
+\input{activation-functions}
 % \input{algorithmen}
-% \input{error-functions}
-% \input{activation-functions}
+
 
 % create list of figures etc. 
 % caption all graphics and refer to them correctly
 
 % Output eines MLP kann statistisch interpretiert werden: P(W|A), jedoch gilt beim akustichem Modell P(A|W)! -> Überführung: Bayes regel umformulieren. Unterer Teil vom Bruch konstant. P(W): Vorkommnise eines Phonems zählen.
 
+% TODO lvq
+% fragen:
+% kullback leibner vs cross entropy
+% regression
+% MSE: legt focus auf die distanz zwischen samples
+% levenstein - wort bzw duchstaben abstand
+% CFM, MMIE
+% cross validation: random oder abschnitte -> die unterteilung der daten in training, test(für mehr info/analysis), validation: und diese werden durchgewechselt
+% LSTM mit Backpropagation - input / forget / output
+% why fully connected upper layers? -> combine lower level features
 \end{document}

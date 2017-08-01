@@ -1,41 +1,72 @@
 \BOOKMARK [1][-]{section.1}{Neuronale Netze - kurzer \334berblick}{}% 1
 \BOOKMARK [1][-]{section.2}{Pattern Recognition}{}% 2
-\BOOKMARK [1][-]{section.3}{Recurrent Neural Networks}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Sequence Learning}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{Elman vs. Jordan Networks - Simple RNN}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.3}{Aufbau}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.4}{Training}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.5}{Vanishing / Exploding Gradient}{section.3}% 8
-\BOOKMARK [1][-]{section.4}{Speech}{}% 9
-\BOOKMARK [2][-]{subsection.4.1}{Speech Recognition}{section.4}% 10
-\BOOKMARK [2][-]{subsection.4.2}{Acoustic Model}{section.4}% 11
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Hidden Markov Model}{subsection.4.2}% 12
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Time Delay Neural Network \(TDNN\)}{subsection.4.2}% 13
-\BOOKMARK [2][-]{subsection.4.3}{Word Model}{section.4}% 14
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Time Alignment}{subsection.4.3}% 15
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Multi-State-TDNN}{subsection.4.3}% 16
-\BOOKMARK [3][-]{subsubsection.4.3.3}{NN-HMM Hybride}{subsection.4.3}% 17
-\BOOKMARK [3][-]{subsubsection.4.3.4}{Viterbi-Algorithmus}{subsection.4.3}% 18
-\BOOKMARK [3][-]{subsubsection.4.3.5}{Forward-Algorithmus}{subsection.4.3}% 19
-\BOOKMARK [3][-]{subsubsection.4.3.6}{Backward-Algorithmus}{subsection.4.3}% 20
-\BOOKMARK [1][-]{section.5}{Learning Vector Quantization}{}% 21
-\BOOKMARK [2][-]{subsection.5.1}{Vector Quantization}{section.5}% 22
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Applications}{subsection.5.1}% 23
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Training}{subsection.5.1}% 24
-\BOOKMARK [2][-]{subsection.5.2}{Learning Vector Quantization}{section.5}% 25
-\BOOKMARK [3][-]{subsubsection.5.2.1}{LVQ1}{subsection.5.2}% 26
-\BOOKMARK [3][-]{subsubsection.5.2.2}{LVQ2}{subsection.5.2}% 27
-\BOOKMARK [3][-]{subsubsection.5.2.3}{LVQ2.1}{subsection.5.2}% 28
-\BOOKMARK [3][-]{subsubsection.5.2.4}{LVQ3}{subsection.5.2}% 29
-\BOOKMARK [3][-]{subsubsection.5.2.5}{OLVQ}{subsection.5.2}% 30
-\BOOKMARK [1][-]{section.6}{Self-Organizing-Maps}{}% 31
-\BOOKMARK [2][-]{subsection.6.1}{Principles Of Self-Oragnized-Learning}{section.6}% 32
-\BOOKMARK [3][-]{subsubsection.6.1.1}{Principle 1: Self-Amplification}{subsection.6.1}% 33
-\BOOKMARK [3][-]{subsubsection.6.1.2}{Principle 2: Competition}{subsection.6.1}% 34
-\BOOKMARK [3][-]{subsubsection.6.1.3}{Principle 3: Cooperation}{subsection.6.1}% 35
-\BOOKMARK [3][-]{subsubsection.6.1.4}{Principle 4: Structural Information}{subsection.6.1}% 36
-\BOOKMARK [3][-]{subsubsection.6.1.5}{Hebbian Learning}{subsection.6.1}% 37
-\BOOKMARK [2][-]{subsection.6.2}{Self-Organizing-Maps}{section.6}% 38
-\BOOKMARK [1][-]{section.7}{Reinfocement Learning}{}% 39
-\BOOKMARK [1][-]{section.8}{Deep Learning in Computer Vision}{}% 40
-\BOOKMARK [1][-]{section.9}{Neural Network Applications in Machine Translation}{}% 41
+\BOOKMARK [2][-]{subsection.2.1}{Bayes Decision Theory - Parametric}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Classifier Discrimination Function}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Curse of Dimensionality}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Principle Component Analysis \(PCA\)}{subsection.2.3}% 6
+\BOOKMARK [2][-]{subsection.2.4}{Non-Parametric Methods}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Parzen Window}{subsection.2.4}% 8
+\BOOKMARK [3][-]{subsubsection.2.4.2}{k-nearest Neighours}{subsection.2.4}% 9
+\BOOKMARK [1][-]{section.3}{Recurrent Neural Networks}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Sequence Learning}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Elman vs. Jordan Networks - Simple RNN}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Aufbau}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{Training}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.5}{Vanishing / Exploding Gradient}{section.3}% 15
+\BOOKMARK [1][-]{section.4}{Speech}{}% 16
+\BOOKMARK [2][-]{subsection.4.1}{Speech Recognition}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.2}{Acoustic Model}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Hidden Markov Model}{subsection.4.2}% 19
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Time Delay Neural Network \(TDNN\)}{subsection.4.2}% 20
+\BOOKMARK [2][-]{subsection.4.3}{Word Model}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Time Alignment}{subsection.4.3}% 22
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Multi-State-TDNN}{subsection.4.3}% 23
+\BOOKMARK [3][-]{subsubsection.4.3.3}{NN-HMM Hybride}{subsection.4.3}% 24
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Viterbi-Algorithmus}{subsection.4.3}% 25
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Forward-Algorithmus}{subsection.4.3}% 26
+\BOOKMARK [3][-]{subsubsection.4.3.6}{Backward-Algorithmus}{subsection.4.3}% 27
+\BOOKMARK [1][-]{section.5}{Learning Vector Quantization}{}% 28
+\BOOKMARK [2][-]{subsection.5.1}{Vector Quantization}{section.5}% 29
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Applications}{subsection.5.1}% 30
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Training}{subsection.5.1}% 31
+\BOOKMARK [2][-]{subsection.5.2}{Learning Vector Quantization}{section.5}% 32
+\BOOKMARK [3][-]{subsubsection.5.2.1}{LVQ1}{subsection.5.2}% 33
+\BOOKMARK [3][-]{subsubsection.5.2.2}{LVQ2}{subsection.5.2}% 34
+\BOOKMARK [3][-]{subsubsection.5.2.3}{LVQ2.1}{subsection.5.2}% 35
+\BOOKMARK [3][-]{subsubsection.5.2.4}{LVQ3}{subsection.5.2}% 36
+\BOOKMARK [3][-]{subsubsection.5.2.5}{OLVQ}{subsection.5.2}% 37
+\BOOKMARK [1][-]{section.6}{Self-Organizing-Maps}{}% 38
+\BOOKMARK [2][-]{subsection.6.1}{Principles Of Self-Oragnized-Learning}{section.6}% 39
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Principle 1: Self-Amplification}{subsection.6.1}% 40
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Principle 2: Competition}{subsection.6.1}% 41
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Principle 3: Cooperation}{subsection.6.1}% 42
+\BOOKMARK [3][-]{subsubsection.6.1.4}{Principle 4: Structural Information}{subsection.6.1}% 43
+\BOOKMARK [3][-]{subsubsection.6.1.5}{Hebbian Learning}{subsection.6.1}% 44
+\BOOKMARK [2][-]{subsection.6.2}{Self-Organizing-Maps}{section.6}% 45
+\BOOKMARK [1][-]{section.7}{Reinfocement Learning}{}% 46
+\BOOKMARK [2][-]{subsection.7.1}{Bellman Equation}{section.7}% 47
+\BOOKMARK [1][-]{section.8}{Deep Learning in Computer Vision}{}% 48
+\BOOKMARK [1][-]{section.9}{Neural Network Applications in Machine Translation}{}% 49
+\BOOKMARK [1][-]{section.10}{Speaker Independence}{}% 50
+\BOOKMARK [2][-]{subsection.10.1}{Frequency Invariance}{section.10}% 51
+\BOOKMARK [2][-]{subsection.10.2}{Multi-Speaker Reference Model}{section.10}% 52
+\BOOKMARK [2][-]{subsection.10.3}{Cross-Language DNNs}{section.10}% 53
+\BOOKMARK [1][-]{section.11}{Hand Writing}{}% 54
+\BOOKMARK [1][-]{section.12}{Natural Language Processing}{}% 55
+\BOOKMARK [1][-]{section.13}{Gradient Optimizations and 2nd order Methods}{}% 56
+\BOOKMARK [2][-]{subsection.13.1}{Logistic Regression}{section.13}% 57
+\BOOKMARK [3][-]{subsubsection.13.1.1}{Gradient Descent - General Approach}{subsection.13.1}% 58
+\BOOKMARK [3][-]{subsubsection.13.1.2}{Batch Gradient Descent}{subsection.13.1}% 59
+\BOOKMARK [3][-]{subsubsection.13.1.3}{Stochastic Gradient Descent}{subsection.13.1}% 60
+\BOOKMARK [3][-]{subsubsection.13.1.4}{Mini-Batch Gradient Descent}{subsection.13.1}% 61
+\BOOKMARK [2][-]{subsection.13.2}{Learning Rate Scheduling}{section.13}% 62
+\BOOKMARK [3][-]{subsubsection.13.2.1}{Adagrad - ADAptive GRADient method}{subsection.13.2}% 63
+\BOOKMARK [3][-]{subsubsection.13.2.2}{Adadelta}{subsection.13.2}% 64
+\BOOKMARK [3][-]{subsubsection.13.2.3}{RMSprop}{subsection.13.2}% 65
+\BOOKMARK [3][-]{subsubsection.13.2.4}{Adam - ADAptive Moment estimation}{subsection.13.2}% 66
+\BOOKMARK [1][-]{section.14}{Error Functions}{}% 67
+\BOOKMARK [2][-]{subsection.14.1}{Binary Cross Entropy or Negative Log Likelihood}{section.14}% 68
+\BOOKMARK [1][-]{section.15}{Activation Functions}{}% 69
+\BOOKMARK [2][-]{subsection.15.1}{Linear Function}{section.15}% 70
+\BOOKMARK [2][-]{subsection.15.2}{Logistic Function}{section.15}% 71
+\BOOKMARK [2][-]{subsection.15.3}{Hyperbolic Tangent function}{section.15}% 72
