@@ -115,14 +115,49 @@
 		\end{itemize}
 \end{itemize}
 
-\subsection{Bayes Decision Theory - Parametric}
-\label{ssect:bayes-decision-theory}
+\subsection{Data Feature}
+\label{ssect:data-feature}
+\begin{figure}[h]
+\includegraphics[scale=0.6]{data-feature}
+\end{figure}
+\subsubsection{Preprocessing:}
+\begin{itemize}
+	\item Normalization
+		\begin{itemize}
+			\item Max-Min (Rescaling): $x^{'} = \frac{x - min(x)}{max(x) - min(x)}$
+			\item Standardization: $x^{'} = \frac{x - \overline{x}}{\sigma}$
+			\item unit length scaling: $x^{'} = \frac{x}{||x||}$
+		\end{itemize}
+		\item incomplete data: null filling - smoothing
+\end{itemize}
+
+\subsubsection{Comparison}
+\begin{itemize}
+	\item Edit Distance
+	\item $L_p$ Norm
+	\item Probabilistic Distribution comparison
+		\begin{itemize}
+			\item Cross Entropy
+			\item Kullback-Leibler Divergence
+		\end{itemize}
+\end{itemize}
+
+
+\subsection{Parametric Methods}
+\label{ssect:parametric}
+
+\subsubsection{Bayes Decision Theory}
+\label{sssect:bayes-decision-theory}
 \begin{align*}
 P(\omega_j |x) &= \frac{p(x|\omega_j) \cdot P(\omega_j)}{p(x)} \\
 p(x) &= \sum_j p(x|\omega_j) \cdot P(w_j)
 \end{align*}
 Since we have overlapping probability distribution false classifications occur. Simply speaking to reduce false classification always decide for the class with the highest probability (errors still can occur!).
 
+\subsubsection{Mixture Densities}
+\label{sssect:mixture-densities}
+%TODO
+needed???
 \subsection{Classifier Discrimination Function}
 \label{ssect:classfier-discrimination-function}
 The \textit{classifier discrimination function} iterats over all classes and choses those which has the highest probability. In the case of the Gaussian classifier it looks as follows:
@@ -188,7 +223,27 @@ The hard part is to chose the window size. the thumb roule is: $V_n = \frac{1}{\
 
 \subsubsection{k-nearest Neighours}
 \label{sssect:k-nearest-neighbours}
+Idea: Let the volume be a function of the data. Include k-nearest neighbors in estimate. Set $k = \sqrt{n}$ k-nearest neighbor rule for classification.
+\begin{itemize}
+	\item[1.] Find k-nearest neighbors of x
+	\item[2.] Determine the class most frequently represented among those k samples (take a vote)
+	\item[3.] Assign x to that class.
+\end{itemize}
+The problem with k-nearest neighbour is k. k should be large for a reliable estimate but also small to guarantee that all k neighbours are reasonably close.\\
+\textbf{There is no data like more data.}
 
+\subsubsection{Clustering}
+\label{sssect:clustering}
+%TODO
+needed?
 
+\subsection{Fisher-Linear Discriminant}
+%TODO
+needed??
 
+\subsection{Perceptron}
+\label{ssect:perceptron}
+\begin{figure}[h]
+\includegraphics[scale=0.4]{perceptron}
+\end{figure}
 \newpage
